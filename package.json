@@ -4,7 +4,8 @@
   "description": "Hypecore-crypto without native deps",
   "main": "dist/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "node ./build",
+    "test": "node ./test/index.js"
   },
   "repository": {
     "type": "git",
@@ -19,5 +20,15 @@
   "bugs": {
     "url": "https://github.com/oniri-app/hypercore-crypto-js/issues"
   },
-  "homepage": "https://github.com/oniri-app/hypercore-crypto-js#readme"
+  "homepage": "https://github.com/oniri-app/hypercore-crypto-js#readme",
+  "devDependencies": {
+    "@babel/preset-env": "^7.23.3",
+    "@babel/preset-react": "^7.23.3",
+    "b4a": "^1.6.4",
+    "babelify": "^10.0.0",
+    "brittle": "^3.3.2",
+    "browserify": "^17.0.0",
+    "hypercore-crypto": "^3.4.0",
+    "reactify": "^1.1.1"
+  }
 }
