@@ -1,0 +1,23 @@
+{
+  "name": "@oniri/hypercore-crypto-js",
+  "version": "1.0.0",
+  "description": "Hypecore-crypto without native deps",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oniri-app/hypercore-crypto-js.git"
+  },
+  "keywords": [
+    "hypercore-crypto",
+    "hypercore"
+  ],
+  "author": "Stavros Chariakis",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/oniri-app/hypercore-crypto-js/issues"
+  },
+  "homepage": "https://github.com/oniri-app/hypercore-crypto-js#readme"
+}
